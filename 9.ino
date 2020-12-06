@@ -1,6 +1,6 @@
 #include <Servo.h>
 #include <SoftwareSerial.h>
-SoftwareSerial bt(12, 13);
+SoftwareSerial bt(5, 6);
 
 Servo left;
 Servo right;
