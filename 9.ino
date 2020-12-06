@@ -24,7 +24,7 @@ void loop()                                  // Main loop auto-repeats
   th = Thermister(analogRead(A0));
   Serial.println("TH");
   Serial.println(th);
-  if (th >= 35 && !isFire) { //if isFire : false
+  if (th >= 30 && !isFire) { //if isFire : false
     backward(800);
     isFire = 1;
     pause(0);
